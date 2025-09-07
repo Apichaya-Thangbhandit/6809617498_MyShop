@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+body {
+    height: 100%;
+    background-image: url(/resources/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.home {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.bar {
+    background: linear-gradient(#f1bbb0, #f3ddd9);
+    border-radius: 15px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 3px;
+}
+
+.login {
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+}
+
+.mid {
+    font-family: f;
+    font-size: 55px;
+    color: white;
+    line-height: 120px;
+    position: relative;
+    left: -40px;
+}
+
+.left,
+.right {
+    gap: 5px;
+    margin: 4px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+
+.btn {
+    text-decoration: none;
+    background: white;
+    color: rgb(86, 86, 86);
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: linear-gradient(#f1bbb0, #f3ddd9);
+    color: white;
+}
+
+#video {
+    width: 530px;
+    height: 300px;
+    margin: 4px;
+}
+
+h4 {
+    text-decoration-line: underline;
+}
+
+.story {
+    text-align: left;
+    text-indent: 30px;
+}
+
+.line {
+    border: none;
+    height: 2px;
+    background-color: #f1bbb0;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.product_name {
+    font-size: 20px;
+}
+
+.new {
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.description {
+    font-size: 12px;
+    color: rgb(86, 86, 86);
+}
+
+.price {
+    font-size: 15px;
+}
+
+p {
+    margin: 4px;
+}
+
+.buy {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.more {
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-size: 13px;
+}
+
+.more:hover {
+    text-decoration-line: underline;
+    color: black;
+}
+
+h5 {
+    margin: 7px;
+    color: rgb(86, 86, 86);
+}
+
+.footer {
+    background: linear-gradient(#f1bbb0, #f3ddd9);
+    border-radius: 15px;
+    padding: 2%;
+    height: 100px;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+}
+
+.icon {
+    margin: 3px;
+}
